@@ -1,17 +1,15 @@
 import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import Features from "@/components/Features";
 import Pricing from "@/components/Pricing";
 
-const Index = () => {
+const PricingPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      <Hero />
-      <Features />
-      <Pricing />
+      <div className="pt-24">
+        <Pricing />
+      </div>
     </div>
   );
 };
 
-export default Index;
+export default PricingPage;
